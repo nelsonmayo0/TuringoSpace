@@ -1,0 +1,12 @@
+echo off
+set FECHA=%date:/=-%
+echo
+
+cd..
+cd..c:\xampp\mysql\bin\mysql.exe
+mysqldump -u root --password=nelsonmayo --port=3305 
+mega > C:\Users\oso\Documents\8vo_cuatri\BD\unidad1\respaldo\respaldo_%Date:~0,2%-%Date:~3,2%-%Date:~6,4%.sql
+
+
+
+https://developer.samsung.com/codelab/watch-face-studio/tag-expression.html#You're-done!
